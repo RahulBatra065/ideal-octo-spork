@@ -1,0 +1,67 @@
+#landing {
+  width:70%;
+  margin:50px auto;
+  height:100%;
+  align-content:center;
+}
+
+#soon {
+  font-family:"hind madurai";
+  text-align:center;
+}
+
+#COCstuff {
+  margin:70px auto;
+  height:auto;
+  background-color:#f0d5d5;
+  border-radius:20px;
+  padding:20px;
+  font-family:"hind madurai";
+  font-size:14px;
+  transition:all .3s ease-in-out;
+}
+
+#shubhrostuff {
+  margin:70px auto;
+  height:auto;
+  background-color:#fafcfc;
+  border-radius:20px;
+  padding:20px;
+  font-family:"hind madurai";
+  font-size:14px;
+  transition:all .3s ease-in-out;
+}
+
+#rahulstuff {
+  margin:70px auto;
+  height:auto;
+  background-color:#fafcfc;
+  border-radius:20px;
+  padding:30px;
+  font-family:"hind madurai";
+  font-size:18px;
+  transition:all .3s ease-in-out;
+}
+
+#feetText {
+  font-family:"hind madurai";
+}
+
+#feet {
+  padding:20px;
+}
+
+#node {
+  padding:20px;
+}
+
+@media (min-width: 992px) {
+  #shubhrostuff, #rahulstuff, #COCstuff {
+    width:80%;
+  }
+}
+
+#shubhrostuff:hover, #rahulstuff:hover, #COCstuff:hover {
+  transform:scale(1.02);
+}
+
