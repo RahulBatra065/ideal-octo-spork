@@ -24,23 +24,34 @@
 #shubhrostuff {
   margin:70px auto;
   height:auto;
-  background-color:#dcf7f7;
+  background-color:#fafcfc;
   border-radius:20px;
   padding:20px;
   font-family:"hind madurai";
   font-size:14px;
-  transition:all .2s ease-in-out;
+  transition:all .3s ease-in-out;
+}
+
+#EBstuff {
+  margin:70px auto;
+  height:auto;
+  background-color:#fafcfc;
+  border-radius:20px;
+  padding:20px;
+  font-family:"hind madurai";
+  font-size:14px;
+  transition:all .3s ease-in-out;
 }
 
 #rahulstuff {
   margin:70px auto;
   height:auto;
-  background-color:#dcf7f7;
+  background-color:#fafcfc;
   border-radius:20px;
   padding:30px;
   font-family:"hind madurai";
   font-size:18px;
-  transition:all .2s ease-in-out;
+  transition:all .3s ease-in-out;
 }
 
 #feetText {
@@ -56,12 +67,12 @@
 }
 
 @media (min-width: 992px) {
-  #shubhrostuff, #rahulstuff, #COCstuff {
+  #shubhrostuff, #rahulstuff, #COCstuff, #EBstuff {
     width:80%;
   }
 }
 
-#shubhrostuff:hover, #rahulstuff:hover, #COCstuff:hover {
-  transform:scale(1.03);
+#shubhrostuff:hover, #rahulstuff:hover, #COCstuff:hover, #EBstuff:hover {
+  transform:scale(1.02);
 }
 
