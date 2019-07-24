@@ -13,6 +13,8 @@
 </head>
 
 <body>
+    <audio id="russia" src="bg.mp3" loop="loop"></audio>
+    <audio id="russia" src="bruh.mp3"></audio>
     <section id="landing">
         <p class="text-center"><img class="img-fluid" src="assets/img/ulogon1black.png" style="width:60%;"></p>
         <h5 id="soon">Utopia Mun 2019 will be live soon<br></h5>
@@ -69,6 +71,16 @@
     </section>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+        window.onload = function() {
+            document.getElementById("russia").play();
+        }
+
+        function play(){
+        var audio = document.getElementById("bruh");
+        audio.play();
+        }
+    </script>
 </body>
 
 </html>
