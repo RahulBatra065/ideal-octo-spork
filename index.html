@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hind+Madurai">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <audio id="bruh" src="bruh.mp3" ></audio>
+
 </head>
 
-<body>
+<body onclick="play()">
     <section id="landing">
         <p class="text-center"><img class="img-fluid" src="assets/img/ulogon1black.png" style="width:60%;"></p>
         <h5 id="soon">Utopia Mun 2019 will be live soon<br></h5>
@@ -50,6 +52,12 @@
     </section>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+        function play(){
+        var audio = document.getElementById("bruh");
+        audio.play();
+        }
+    </script>
 </body>
 
 </html>
